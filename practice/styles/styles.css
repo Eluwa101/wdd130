@@ -8,18 +8,23 @@ nav {
 a {
     color: white;
     margin: 40px;
+    flex-direction: flex;
 }
 h1 {
     color: steelblue;
 }
 img {
     width: 800px;
-    border: 4px solid steelblue;
+    border: 4px solid steelblue; 
+    
 }
-p {
-    padding: 10px;
+p1 {
+    padding: 10px; color: rgb(7, 25, 83);
 }
 footer {
     background-color: steelblue;
-    color: white;
+    color: rgb(87, 4, 4);
+}
+p {
+    padding: 10px; color: black;
 }
