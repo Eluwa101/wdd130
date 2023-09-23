@@ -5,10 +5,10 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto+Condensed:wght@300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #12492f;
+  --primary-color: #0a0a0a;
   --secondary-color: #2e86ab ;
   --accent1-color: #f18f01;
-  --accent2-color: #0a0a0a;
+  --accent2-color: #12492f;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Finger Paint", Helvetica;
