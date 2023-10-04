@@ -1,0 +1,39 @@
+* {
+    background-color: #FCA6C9;
+    text-align: center;
+}
+.my-title {
+    color: white;
+}
+.my-title:hover {
+    color: black;
+}
+p1-quiote-ref {
+    font-size: 1.5em;
+}
+div {
+    color: white;
+}
+ol, li {
+    text-align: left;
+    margin: 10px auto;
+    width: 400px; 
+    list-style-position: inside;
+    font-weight: bold;
+}
+img {
+    margin: 1%;
+}
+main p {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    font-size: large;
+    font-weight: 700;
+}
+#p2-quote-ref {
+    font-size: small;
+    color: black;
+    margin: 5% auto;
+}
