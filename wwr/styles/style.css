@@ -131,3 +131,6 @@ footer .social img {padding-top: 15px;}
 main section img {
     box-sizing: border-box;
 }
+.book:hover{ background-color: #f09815;
+    color: #0a0a09ea;
+}
