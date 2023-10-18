@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    align-self: center;
+    height: 10em;
+    width: 45%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
