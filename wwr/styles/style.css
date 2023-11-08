@@ -223,8 +223,9 @@ main.blog-grid {
     border: 1px solid #f09815;
     background-color: #fff;
     transition: transform 0.3s ease;
-    border: solid #f09815;
+    border: 10px solid #f09815;
     margin-bottom: 10%;
+    box-shadow: 5px 5px 10px;
 }
 
 .blog-card:hover {
