@@ -276,6 +276,7 @@ main.blog-grid {
     text-decoration: none;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    margin-top: 2%;
 }
 
 .read-more-button:hover {
@@ -283,9 +284,9 @@ main.blog-grid {
 }
 
 /* Expanded Content Styles (Initially hidden) */
-.read-more-checkbox {
+/* .read-more-checkbox {
     display: outside;
-}
+} */
 
 /* Show expanded content when checkbox is checked */
 .read-more-checkbox:checked + .content .read-more-content {
