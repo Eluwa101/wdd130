@@ -1,0 +1,38 @@
+*{
+    /* text-align: center; */
+}
+.image{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#weeks{
+    color: rgb(59, 59, 245);
+    text-align: center;
+}
+#post {text-align: center;}
+#para{ 
+    overflow: visible;
+    width: 200px; height: 65px;
+    margin: 0 auto;
+    /* overflow-y: scroll; */
+    margin-bottom: 90px;
+}
+/* p{
+    overflow: auto;
+    height: 70%;
+    width: 50%;
+    text-align: center;} */
+.bottom { background-color: rgb(92, 175, 247);}  
+.bottom h4 {margin-top: 20px;}  
+
+#foot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+h4, p {
+    text-align: center;
+}
+h4 p{margin-top: 5px;}

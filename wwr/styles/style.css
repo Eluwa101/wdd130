@@ -33,6 +33,10 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    }
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -187,8 +191,131 @@ main section img {
     box-sizing: border-box;
 }
 .book:hover{ background-color: #f09815;
-    color: #0a0a09ea;
 }
+
+
+/* Here begins the Blog page Styles */
+.blog-para{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f09815;
+    padding: 10px 100px;
+}
+.blog-title, .blog-heading{
+    text-align: center;
+    font-family: 'finger paint', 'comic sans ms','dancing script', cursive ;
+    font-size: 2em;
+}
+
+
+main.blog-grid {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+/* Blog Card Styles */
+.blog-card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #f09815;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    border: solid #f09815;
+    margin-bottom: 10%;
+}
+
+.blog-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Blog Image Styles */
+.blog-image {
+    flex: 1;
+    text-align: center;
+    /* border: 1px solid orange; */
+    margin-bottom: 10%;
+    background-color: #2e86ab;
+}
+
+.blog-image img {
+    max-width: 100%;
+    transition: transform 0.3s ease;
+}
+
+
+/* Blog Image Hover Animation */
+.blog-image img:hover {
+    transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+/* Blog Post Styles */
+.blog-post {
+    flex: 2;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-metadata {
+    color: #888;
+}
+
+/* "Read More" Button Styles */
+.read-more-button {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.read-more-button:hover {
+    background-color: #444; /* Change background color on hover */
+}
+
+/* Expanded Content Styles (Initially hidden) */
+.read-more-checkbox {
+    display: outside;
+}
+
+/* Show expanded content when checkbox is checked */
+.read-more-checkbox:checked + .content .read-more-content {
+    display: block;
+}
+
+/* Hide the "Read More" button when expanded content is shown */
+.read-more-checkbox:checked + .content .read-more-button {
+    display: none;
+}
+.content{
+    font-size: larger;
+    border: 2px solid orange;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+/* footer {
+    background-color: #f09815;
+    color: #0a0a0a;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
+
+
 
 /* the media query part */
 
