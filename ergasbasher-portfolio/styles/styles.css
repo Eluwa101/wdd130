@@ -2,8 +2,9 @@
 
 
 /* here's for the header section styling */
-#content{
+#all-content{
     max-width: 1600px ;
+    margin: 0 auto;
 }
 body {
     font-family:"Open Sans", Georgia;
@@ -40,7 +41,7 @@ nav a{
     border-radius: 5px;
 }
 nav a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #7FC2FA;
 }
 
@@ -52,8 +53,9 @@ footer {
     color: #fff;
     padding: 20px; 
     display: flex;
-    flex-direction: row; 
+    flex-direction: row-reverse; 
     align-items: center;
+    width: auto;
 }
 
 footer p {
@@ -125,12 +127,14 @@ footer a:hover {
 }
 
 
-/* here;s the styling for the first section */
+/* here;s the styling for the first section image and paragraph */
 
 .section-card{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     margin: 70px 0 70px 0;
+    max-width: fit-content;
+    max-height: 800px;
 }
 
 #section-img{
@@ -140,40 +144,42 @@ footer a:hover {
     border: 10px solid #E38149;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #0A3A6B;
+    height: 450px;
 }
 #sectio-img:hover{    opacity: .6;
     transform: scale(1.1)
 }
 #section-img img{
     margin: 0 auto;
-    
 }
+
 h1 {
-    text-align: center; 
-    margin-bottom: 20px; 
+    text-align: center;
+    margin-bottom: 20px;
 }
-.section-card p{
-    max-width: 500px;
-    margin:30px 70px 50px 0;
+
+.section-card p {
+    width: 100%;
+    /* margin: 50px 50px 50px 50px; */
     overflow-x: hidden;
     text-align: center;
-    margin: 0 auto;
-    margin-right: 70px;
     height: 500px;
-    text-overflow: clip;
     border: 2px solid #E38149;
     background-color: #7FC2FA;
     padding: 30px;
-    border: 10px solid #E38149;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #0A3A6B;
     font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.section-card p:hover{
-    opacity: 10;
-    transform: scale(1.1)
+.section-card p:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
+
+
 
 
 /* style for the last sectrion */
@@ -219,13 +225,14 @@ h1 {
   }
   .button-container ,a:hover {
     opacity: 1.0;
-    transform: scale(0.1)
-    transition transform .5s;
+    transform: scale(0.4)
+    transition transform .6s;
     box-shadow: 5px 5px 10px #0A3A6B
     
 }  
+.button-container a:hover{background-color: #7FC2FA;}
   
-  /* Media query for responsive design */
+  /* Media query for responsive design for the ronded section */
   
   @media (max-width: 768px) {
     section.sect-rounded {
@@ -233,3 +240,49 @@ h1 {
       margin: 10px 0;
     }
   }
+
+
+
+
+/* Media Query for footer on Small Screens */
+@media (max-width: 1268px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer a {
+        margin: 10px 0;
+    }
+
+    .social {
+        margin-top: 10px;
+    }
+
+    .social a {
+        margin: 0 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .section-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #section-img {
+        margin: 50px;
+    }
+
+    .section-card p {
+        margin: 30px;
+        margin-right: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-card {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
