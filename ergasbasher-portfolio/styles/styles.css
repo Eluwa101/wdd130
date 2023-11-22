@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+
+/* here's for the header section styling */
+#content{
+    max-width: 1600px ;
+}
+body {
+    font-family:"Open Sans", Georgia;
+
+    font-weight: 600;
+}
+
+header{
+    background-color: #0A3A6B;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo_link{
+    text-decoration: none;
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+nav a{
+    color: #E38149;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #7FC2FA;
+}
+
+
+/* here's for the footer section */
+
+footer {
+    background-color: #0A3A6B;
+    color: #fff;
+    padding: 20px; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #E38149;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px 10px; 
+    border: 2px solid #fff;
+    border-radius: 5px; 
+    font-size: small;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    background-color: #7FC2FA;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.social a {
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.social img {
+    max-width: 30px; 
+    height: auto;
+}
+
+/* Here is the hero section styles */
+
+#hero-img-box {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#hero-box {
+    position: relative;
+    width: 100%;
+}
+
+#hero-box img {
+    width: 100%;
+    height: auto;
+}
+
+#hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 10); 
+}
+
+#hero-text h1,
+#hero-text h3,
+#hero-text h4 {
+    margin: 10px 0;
+}
+
+
+/* here;s the styling for the first section */
+
+.section-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 70px 0 70px 0;
+}
+
+#section-img{
+    margin: 50px 50px ;
+    border: 2px solid #E38149;
+    max-width: 100%;
+    border: 10px solid #E38149;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #0A3A6B;
+}
+#sectio-img:hover{    opacity: .6;
+    transform: scale(1.1)
+}
+#section-img img{
+    margin: 0 auto;
+    
+}
+h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.section-card p{
+    max-width: 500px;
+    margin:30px 70px 50px 0;
+    overflow-x: hidden;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 70px;
+    height: 500px;
+    text-overflow: clip;
+    border: 2px solid #E38149;
+    background-color: #7FC2FA;
+    padding: 30px;
+    border: 10px solid #E38149;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #0A3A6B;
+    font-size: large;
+}
+
+.section-card p:hover{
+    opacity: 10;
+    transform: scale(1.1)
+}
+
+
+/* style for the last sectrion */
+
+#last-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 50px;
+  }
+  
+  section.sect-rounded {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .rounded-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+.button-container a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0A3A6B;
+    color: #E38149;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .button-container ,a:hover {
+    opacity: 1.0;
+    transform: scale(0.1)
+    transition transform .5s;
+    box-shadow: 5px 5px 10px #0A3A6B
+    
+}  
+  
+  /* Media query for responsive design */
+  
+  @media (max-width: 768px) {
+    section.sect-rounded {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
