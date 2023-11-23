@@ -39,6 +39,7 @@ nav a{
     padding: 30px 20px;
     border: 2px solid #fff;
     border-radius: 5px;
+    background-color: #fff;
 }
 nav a:hover{
     text-decoration: none;
@@ -65,11 +66,12 @@ footer p {
 footer a {
     color: #E38149;
     text-decoration: none;
-    margin: 10px 20px;
+    margin: 10px 10px;
     padding: 10px 10px; 
     border: 2px solid #fff;
     border-radius: 5px; 
     font-size: small;
+    background-color: #fff;
 }
 
 footer a:hover {
@@ -117,7 +119,7 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; 
-    text-shadow: 6px 6px 10px rgba(0, 0, 0, 10); 
+    text-shadow: 6px 6px 9px rgba(0, 0, 0, 10); 
 }
 
 #hero-text h1,
@@ -182,7 +184,7 @@ h1 {
 
 
 
-/* style for the last sectrion */
+/* style for the last section */
 
 #last-section {
     display: flex;
@@ -253,6 +255,8 @@ h1 {
 
     footer a {
         margin: 10px 0;
+    margin-bottom: 10px;
+
     }
 
     .social {
