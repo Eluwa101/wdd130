@@ -284,6 +284,7 @@ h1 {
     width: 75%;
     overflow: scroll;
     overflow-x: hidden;
+    height: 50%;
     border: 5px solid #E38149;
 
 }
