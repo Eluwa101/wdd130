@@ -189,6 +189,7 @@ footer a:hover {
       width: 100%;
       margin: 10px 0;
     }
+    
   }
 
 
@@ -196,9 +197,10 @@ footer a:hover {
 
 /* Media Query for footer on Small Screens */
 @media (max-width: 1268px) {
-    footer {
+    footer,nav {
         flex-direction: column;
         text-align: center;
+        margin: 0 auto;
     }
 
     footer a {
@@ -285,6 +287,7 @@ h1 {
     overflow: scroll;
     overflow-x: hidden;
     height: 50%;
+    margin-top: 100px;
     border: 5px solid #E38149;
 
 }
