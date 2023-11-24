@@ -220,26 +220,6 @@ footer a:hover {
 }
 
 
-@media (min-width: 768px) {
-    .section-card {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #section-img {
-        margin: 50px;
-    }
-
-    .section-card p {
-        margin: 30px;
-        margin-right: 70px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .section-card {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
 
 /* the Section styles */
@@ -275,7 +255,7 @@ h1 {
 
 }
 
-/* Paragraph styles */
+
 .section-card p {
     text-align: center; 
     background-color: #7FC2FA;
@@ -285,9 +265,10 @@ h1 {
     font-size: large;
     width: 75%;
     overflow: scroll;
-    overflow-x: hidden;
+    overflow-y: auto;
     height: 50%;
     margin-top: 100px;
+    margin-bottom: -400px;
     border: 5px solid #E38149;
 
 }
@@ -300,13 +281,43 @@ h1 {
     transition: transform .5s;
 }
 
+
+
+
+
+@media (min-width: 768px) {
+    .section-card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #section-img {
+        margin: 50px;
+    }
+
+    .section-card p {
+        margin: 30px;
+        margin-right: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-card {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
 @media (max-width: 768px) {
     .section-card {
         grid-template-columns: 1fr; 
     }
 
     #section-img {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         margin-right: 50px;
+    }
+    .section-card p{
+        text-overflow: clip;
+        overflow: scroll;
     }
 }
