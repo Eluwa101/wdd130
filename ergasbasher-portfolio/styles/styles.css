@@ -45,6 +45,22 @@ nav a:hover{
     text-decoration: none;
     background-color: #7FC2FA;
 }
+form {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  form > input[type="text"] {
+    height: 16px;
+    width: 200px;
+    margin-left: 24px;
+    font-size: 13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    vertical-align: top;
+  }
+
 
 
 /* here's for the footer section */
