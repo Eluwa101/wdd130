@@ -18,7 +18,7 @@
                 <a href="young-tech-experts.html">Young Tech Experts</a>
                 <a href="why-us.html">Why Us</a>
                 <div>
-                    <form method="get" id="searchForm" action="https://eluwa101.github.io/wdd130/ergasbasher-portfolio/index.html" onsubmit="return performSearch()">
+                    <form method="get" id="search" target="_blank" action="https://bing.com" onsubmit="return performSearch()">
                       <input type="text" name="q" maxlength="255" placeholder=" Search " />
                       <input type="image" src="images/eluwa-icon.png" height="20" width="20" />
                     </form>
@@ -96,31 +96,5 @@
             </div>
         </footer>
     </div>
-    <script>
-        function performSearch() {
-            var query = document.getElementById('searchForm').elements['q'].value.toLowerCase(); // Get the search query
-        
-            // Check if the query is not empty
-            if (query.trim() !== '') {
-                var searchResults = document.getElementById('search-results');
-                searchResults.innerHTML = ''; // Clear previous results
-        
-                // Perform a simple client-side search within the current page
-                var paragraphs = document.getElementsByTagName('p'); // Change this based on the elements you want to search
-                for (var i = 0; i < paragraphs.length; i++) {
-                    var content = paragraphs[i].textContent.toLowerCase();
-                    if (content.includes(query)) {
-                        // Display the relevant result
-                        var result = document.createElement('p');
-                        result.textContent = content;
-                        searchResults.appendChild(result);
-                    }
-                }
-            }
-        
-            return false; // Prevent the form from submitting
-        }
-        </script>
-        
 </body>
 </html>
