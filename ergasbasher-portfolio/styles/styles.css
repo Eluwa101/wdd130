@@ -205,6 +205,9 @@ footer a:hover {
 .intro p {
     padding: 20px;
 }
+.intro h2{
+    color: #E38149;
+}
 .why-box {
     max-width: 800px;
     margin: 0 auto;
@@ -222,7 +225,7 @@ footer a:hover {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 2px solid #E38149 ;
+    border: 2px solid #ffffff ;
     
   }
 
@@ -231,7 +234,7 @@ footer a:hover {
     padding-left: 20px;
     box-shadow: 0 0 10px rgba(83, 129, 151, 0.1);
     background-color: #7FC2FA;
-    border: 2px solid #E38149 ;
+    border: 2px solid #fffffe ;
     border-radius: 8px;
 
   }
@@ -260,7 +263,7 @@ footer a:hover {
     transition: transform .5s;
   }
   
-  .why-box h1 {
+  .why-box h2 {
     font-size: 1.5em;
     color: #333;
     padding: 30px;
