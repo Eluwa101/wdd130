@@ -62,8 +62,6 @@ form {
     vertical-align: center;
   }
 
-
-
 /* here's for the footer section */
 
 footer {
@@ -74,8 +72,8 @@ footer {
     flex-direction: row-reverse; 
     align-items: center;
     width: auto;
+    margin-top: 20px;
 }
-
 footer p {
     margin: 10px 0;
 }
@@ -136,7 +134,7 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff; 
-    text-shadow: 6px 6px 6px rgba(0, 0, 0, 10); 
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 9); 
 }
 
 #hero-text h1,
@@ -204,6 +202,9 @@ footer a:hover {
 #hero-img-box{
     background-color: #7FC2FA;
 }
+.intro p {
+    padding: 20px;
+}
 .why-box {
     max-width: 800px;
     margin: 0 auto;
@@ -212,27 +213,51 @@ footer a:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #0A3A6B;
   }
   
   .why-box img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    border: 2px solid #E38149 ;
+    
   }
-  
+
   .why-box .content {
     flex: 1;
     padding-left: 20px;
     box-shadow: 0 0 10px rgba(83, 129, 151, 0.1);
     background-color: #7FC2FA;
+    border: 2px solid #E38149 ;
+    border-radius: 8px;
 
   }
-  .why-box .content:hover {
+.content{
+    margin-top: 40px;
+}
+.why-box .content:hover {
     flex: 1;
     padding-left: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: whitesmoke;
-
+    opacity: 1;
+    transform: scale(1.1);
+    opacity: 1;
+    transform: scale(1.1);
+    transition: transform .5s;
+    
+  }
+  .why-box img:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    opacity: 1;
+    transform: scale(1.1);
+    opacity: 1;
+    transform: scale(1.1);
+    transition: transform .5s;
   }
   
   .why-box h1 {
