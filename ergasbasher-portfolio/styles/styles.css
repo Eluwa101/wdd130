@@ -366,6 +366,7 @@ footer a:hover {
     section.sect-rounded {
       width: 100%;
       margin: 10px 0;
+      margin-bottom: 50px;
     }
     .body-para {
         max-width: 600px; 
