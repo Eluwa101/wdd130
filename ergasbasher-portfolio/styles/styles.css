@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 body {
-    font-family:"Open Sans", Georgia;
+    font-family:"Open Sans", Georgia, sans-serif;
 
     font-weight: 600;
 }
@@ -358,7 +358,10 @@ footer a:hover {
     margin-bottom: 20px;
     color: #E38149;
 }
-
+.body-section:last-child .body-para {
+    overflow: scroll;
+    text-overflow: scroll;
+}
 
   /* Media query for responsive design for the ronded section */
   
@@ -372,9 +375,20 @@ footer a:hover {
         max-width: 600px; 
         max-height: 600px;
         grid-column:1/2 ;
+        text-overflow: clip;
+        margin: 0 auto;
+
+    }
+    .body-image{
+        margin: 0 auto;
+        
+        
     }
     .body-section h2 {
         grid-column: 1/2;
+    }
+    .body-section{
+        width: auto;
     }
 
   }
