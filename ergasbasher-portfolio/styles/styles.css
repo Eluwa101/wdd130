@@ -141,6 +141,7 @@ footer a:hover {
 #hero-text h3,
 #hero-text h4 {
     margin: 10px 0;
+    background-color: #0A3A6B;
 }
 
 
@@ -206,7 +207,7 @@ footer a:hover {
     padding: 20px;
 }
 .intro h2{
-     border-bottom: 2px solid #ccc; 
+    border-bottom: 2px solid #ccc; 
     margin-bottom: 20px;
     color: #ffffff;
     background-color: #0A3A6B;
