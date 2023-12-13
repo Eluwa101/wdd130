@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 body {
-    font-family:"Open Sans", Georgia, sans-serif;
+    font-family:"Open Sans", 'Playfair Display' , sans-serif;
 
     font-weight: 600;
 }
@@ -33,7 +33,7 @@ nav{
     margin: 0 auto;
 }
 nav a{
-    color: #E38149;
+    color: #0A3A6B;
     text-decoration: none;
     margin: 10px 20px;
     padding: 30px 20px;
@@ -43,7 +43,7 @@ nav a{
 }
 nav a:hover{
     text-decoration: none;
-    background-color: #7FC2FA;
+    background-color: #E38149;
 }
 form {
     display: inline-block;
@@ -79,7 +79,7 @@ footer p {
 }
 
 footer a {
-    color: #E38149;
+    color: #0A3A6B;
     text-decoration: none;
     margin: 10px 10px;
     padding: 10px 10px; 
@@ -91,7 +91,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    background-color: #7FC2FA;
+    background-color: #E38149;
 }
 
 .social {
@@ -206,10 +206,10 @@ footer a:hover {
     padding: 20px;
 }
 .intro h2{
-    color: #E38149;
-    border-bottom: 2px solid #ccc; 
+     border-bottom: 2px solid #ccc; 
     margin-bottom: 20px;
-    color: #E38149;
+    color: #ffffff;
+    background-color: #7FC2FA;
 }
 .why-box {
     max-width: 800px;
@@ -348,7 +348,7 @@ footer a:hover {
 }
 
 .body-section .body-para p {
-    color: rgb(7, 7, 7)c0c;
+    color: #070707;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -356,11 +356,12 @@ footer a:hover {
 #hero-img-box section h1,#hero-img-box section h2{
     border-bottom: 2px solid #ccc; 
     margin-bottom: 20px;
-    color: #E38149;
+    color: #ffffff;
+    background-color: #7FC2FA;
 }
 .body-section:last-child .body-para {
     overflow: scroll;
-    text-overflow: scroll;
+    text-overflow: clip;
 }
 
   /* Media query for responsive design for the ronded section */
