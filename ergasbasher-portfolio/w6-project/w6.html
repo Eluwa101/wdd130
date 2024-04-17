@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMR | BMI Calculator</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+        <h1>BMR | BMI Calculator</h1>
+        <h3>Check the Box and enter first name if you are a registered Member</h3>
+        <h4>Otherwise, enter full details </h4>
+    </div>
+    <form id="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" required>
+
+      <label for="height">Height (cm):</label>
+      <input type="number" id="height" required>
+      
+      <label for="useApiData">Use Member Data:</label>
+      <input type="checkbox" id="useApiData" checked>
+      
+      <button type="button" onclick="calculateBMRandBMI()">Calculate</button>
+    </form>
+
+    <div id="result" class="result-window"></div>
+    
+    <div id="health-panel" class="health-panel"></div>
+  </div>
+
+  <script src="scripts/w6.js"></script>
+</body>
+</html>
